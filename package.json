@@ -1,0 +1,62 @@
+{
+  "name": "phantom-reach",
+  "version": "0.1.0",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "bin": {
+    "phantom-reach-mcp": "./dist/mcp/server.js"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "local": "node scripts/local-dev.mjs",
+    "local:preflight": "node scripts/local-preflight.mjs",
+    "build": "next build",
+    "build:mcp": "tsc -p tsconfig.mcp.json",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:visual": "node testing_framework/visual-smoke.mjs",
+    "verify:local": "node scripts/verify-local.mjs",
+    "test:watch": "vitest --watch",
+    "test:verbose": "vitest run --reporter=verbose"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "@google/genai": "^2.10.0",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@react-pdf/renderer": "^4.3.2",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.27",
+    "better-sqlite3": "^12.11.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "docx": "^9.6.0",
+    "exceljs": "^4.4.0",
+    "lucide-react": "^0.300.0",
+    "next": "^15.5.19",
+    "openai": "^6.25.0",
+    "postcss": "^8.5.6",
+    "pptxgenjs": "^4.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.2.0",
+    "tailwindcss": "^3.4.19",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.3.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/better-sqlite3": "^7.6.13",
+    "vitest": "^4.0.18"
+  },
+  "overrides": {
+    "@hono/node-server": "^1.19.10",
+    "express-rate-limit": "^8.2.2",
+    "hono": "^4.12.4"
+  }
+}

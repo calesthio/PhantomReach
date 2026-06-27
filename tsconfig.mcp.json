@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "outDir": "./dist/mcp",
+    "rootDir": "./src/mcp",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": false,
+    "sourceMap": false
+  },
+  "include": ["src/mcp/**/*.ts"],
+  "exclude": ["node_modules"]
+}
