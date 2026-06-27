@@ -13,13 +13,9 @@ It runs **entirely on your machine**: local SQLite storage, keys managed from an
 
 And because everything lives in plain local files, you can hand the whole project to your AI coding assistant and tell it to run audits, dig deeper, and write follow-up research for you. [Jump to the agentic workflow ↓](#-agentic-by-design--your-coding-assistant-does-the-work)
 
-## 🎥 Watch the 2-Minute Explainer
+## Watch the 2-Minute Explainer
 
-<!-- TODO: replace with the uploaded video link once the repo is on GitHub.
-     Upload phantom-reach-final-1080p.mp4 to a GitHub Issue, copy the
-     user-images.githubusercontent.com URL it generates, and paste it below. -->
-
-> **▶️ Demo video coming soon.** A full walkthrough is on the way — link will be added here once the repo is live.
+https://github.com/user-attachments/assets/78224126-d53f-4f08-8e36-1ffc06b2a618
 
 ## Why Phantom Reach
 
