@@ -18,6 +18,14 @@ And because everything lives in plain local files, you can hand the whole projec
 
 https://github.com/user-attachments/assets/78224126-d53f-4f08-8e36-1ffc06b2a618
 
+## Sample Report Preview
+
+Screenshots from the explainer use blurred demo data, so they show the report quality without exposing a real business.
+
+| Score overview | Strategy signals | Action plan |
+| --- | --- | --- |
+| ![Phantom Reach report score overview](docs/assets/report-overview.webp) | ![Phantom Reach report strategy section](docs/assets/report-strategy.webp) | ![Phantom Reach report action plan](docs/assets/report-action-plan.webp) |
+
 ## Why Phantom Reach
 
 - 🧠 **Consultant in a box** — a frontier model turns raw signals into strategic findings, not just a score.
