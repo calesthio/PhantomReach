@@ -6,6 +6,7 @@
 [![Node](https://img.shields.io/badge/Node-20%2B-339933.svg)](https://nodejs.org)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black.svg)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6.svg)](https://www.typescriptlang.org)
+[![Sponsor](https://img.shields.io/badge/Sponsor-calesthio-EA4AAA.svg)](https://github.com/sponsors/calesthio)
 
 Type a business name. Phantom Reach pulls its real public footprint — Google Business Profile, reviews, competitors, site speed, technology stack, social presence, and more — then hands it to a frontier AI model that reasons like a seasoned growth consultant and writes the report for you. Pitch-ready PDF, DOCX, PPTX, or XLSX, every time.
 
@@ -192,3 +193,11 @@ The app stores secrets and data locally. These are gitignored — never commit t
 Licensed under the [GNU Affero General Public License v3.0](LICENSE).
 
 AGPL-3.0 is a strong network-copyleft license: if you run a modified version of this software as a network service, you must make your modified source available to its users. See the [LICENSE](LICENSE) file for the full terms.
+
+---
+
+**Phantom Reach** turns local business research into client-ready intelligence reports, on your own machine.
+
+If this project looks useful to you, a GitHub star would mean a lot. It helps marketers, agencies, and builders discover the project.
+
+If you would like to support the work more directly, [sponsor the project](https://github.com/sponsors/calesthio). Phantom Reach is built in public, and sponsorship helps keep the open-source version moving.
